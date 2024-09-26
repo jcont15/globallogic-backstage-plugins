@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: ${{ values.name | dump }}
+  name: "test"
   annotations:
     terraform/organization: orgName
     terraform/workspace: workspaceName
@@ -9,3 +9,4 @@ spec:
   type: service
   owner: user:guest
   lifecycle: experimental
+
